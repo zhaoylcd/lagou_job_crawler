@@ -1,0 +1,7 @@
+Thu,2015-07-23 22:40:26 producer_customer.py [line:98] ERROR 抓取异常,错误信息:Traceback (most recent call last):
+  File "F:\crawler\common\producer_customer.py", line 95, in start
+    self.run(item)
+  File "F:/crawler/job_crawler/lagou_crawler_consumer.py", line 32, in run
+    raise Exception(u'抓取详细页异常')
+Exception: 抓取详细页异常
+'
