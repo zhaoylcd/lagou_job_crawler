@@ -438,24 +438,3 @@ Sat,2015-07-25 16:07:22 producer_customer.py [line:153] INFO item=http://jobs.zh
 Sat,2015-07-25 16:07:22 producer_customer.py [line:153] INFO item=http://jobs.zhaopin.com/263478437250007.htm?ssidkey=y&ss=201&ff=03'
 Sat,2015-07-25 16:07:22 producer_customer.py [line:153] INFO item=http://jobs.zhaopin.com/263478437250006.htm?ssidkey=y&ss=201&ff=03'
 Sat,2015-07-25 16:07:22 producer_customer.py [line:153] INFO item=http://jobs.zhaopin.com/453922326250280.htm?ssidkey=y&ss=201&ff=03'
-Sat,2015-07-25 16:49:30 producer_customer.py [line:98] ERROR 抓取异常,错误信息:Traceback (most recent call last):
-  File "F:\crawler\common\producer_customer.py", line 95, in start
-    self.run(item)
-  File "F:/crawler/job_crawler/zhilian_crawler_consumer.py", line 29, in run
-    print u'抓取%s详情页时异常%s' (item, e)
-TypeError: 'unicode' object is not callable
-'
-Sat,2015-07-25 16:59:43 producer_customer.py [line:98] ERROR 抓取异常,错误信息:Traceback (most recent call last):
-  File "F:\crawler\common\producer_customer.py", line 95, in start
-    self.run(item)
-  File "F:/crawler/job_crawler/zhilian_crawler_consumer.py", line 29, in run
-    print u'抓取%s详情页时异常%s' (item, e)
-TypeError: 'unicode' object is not callable
-'
-Sat,2015-07-25 17:05:01 producer_customer.py [line:98] ERROR 抓取异常,错误信息:Traceback (most recent call last):
-  File "F:\crawler\common\producer_customer.py", line 95, in start
-    self.run(item)
-  File "F:/crawler/job_crawler/zhilian_crawler_consumer.py", line 29, in run
-    print u'抓取%s详情页时异常%s' (item, e)
-TypeError: 'unicode' object is not callable
-'
